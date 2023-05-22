@@ -16,7 +16,6 @@ openai.api_key = os.environ['key3']
 
 # Initialize HuggingFace pipelines
 #nlp_ner = pipeline("ner", model="dslim/bert-base-NER")
-#nlp_ner = pipeline("ner", model="monologg/electra-base-finetuned-conll03-english")
 #nlp_ner = pipeline("ner", model="flair/ner-english-fast")
 
 #nlp_sentiment = pipeline("sentiment-analysis")
