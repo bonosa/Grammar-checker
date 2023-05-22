@@ -13,9 +13,6 @@ import os
 # Set OpenAI API key
 openai.api_key = os.environ['key3']
 
-import gradio as gr
-from transformers import pipeline
-import openai
 
 # Initialize HuggingFace pipelines
 #nlp_ner = pipeline("ner", model="dslim/bert-base-NER")
